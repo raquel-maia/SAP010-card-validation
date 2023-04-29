@@ -2,13 +2,60 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>CardValidator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <h1>Bem-vinde ao CardValidator! Valide aqui seu cartão:</h1>
+    </header>
+    <main class="container">
+      <section class="overview">
+        <div class="container-left">
+          <form id="creditCard">
+            <div class="number-container">
+              <label for="cardNumber">Número do Cartão</label>
+              <input type="text" name="validNumber" id="validNumber" maxlength="16" pattern="[0-9]+" onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+              autocomplete="off" placeholder="4137 8947 1175 5904" required>
+            </div>
+            <div class="name-container">
+              <label>Nome</label>
+              <input type="text" name="name-text" id="nameTextOne" maxlength="25" placeholder="JOHN SMITH" autocomplete="off" required>
+            </div>
+            <div class="infos-container">
+              <div class="expiration-container">
+                <label>Validade</label>
+                <input type="text" name="text" id="textPassword" maxlength="5" placeholder="10/19" required>
+              </div>
+            </div>
+            <p id="message"></p>
+            <button id="validateButton" type="button">Validar</button>
+          </form>
+        </div>
+        <div class="container-right">
+          <div class="card">
+            <div class="numberCard">
+              <img class="chip" src="./image-chip.png" alt="imagem chip">
+              <div class="card-number">
+                <label>Número do cartão</label>
+                <input type="text" name="validNumber" id="validNumberTwo" maxlength="16" readonly>
+              </div>
+              <div class="card-name">
+                <label>Nome</label>
+                <input type="text" name="name-text" id="nameTextTwo" maxlength="25" placeholder="JOHN SMITH" readonly>
+              </div>
+              <div class="card-infos">
+                <div class="exp">
+                  <label>Data de Validade</label>
+                  <input type="text" name="text" id="textPassword2" maxlength="5" placeholder="10/19" required>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </section>
+      <footer>Feito por Raquel Maia</footer>  
+    </main>
     <script src="index.js" type="module"></script>
   </body>
 </html>
