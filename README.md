@@ -19,8 +19,7 @@ Some todos os dígitos (incluindo os que foram duplicados e subtraídos) e verif
 *Npm
 *Git e Github
 
-![gráfico do algoritmo de
-Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+![image](./imagem-card.png)
 
 ##Estrutura do projeto
 
