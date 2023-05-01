@@ -13,18 +13,20 @@ Some todos os dígitos (incluindo os que foram duplicados e subtraídos) e verif
 
 ##Tecnologias utilizadas
 
-*HTML
-*CSS
-*JavaScript
-*Npm
-*Git e Github
-
-![image](./imagem-card.png)
+- HTML
+- CSS
+- JavaScript
+- Npm
+- Git e Github
 
 ##Estrutura do projeto
 
 O projeto foi criado a partir de um boilerplate, com a estrutura básica de um projeto em diferentes pastas (através de módulos em JS).
 A pasta src contém o código-fonte do projeto, enquanto a pasta test contém os testes unitários.
+
+![image](./src/imagem-card.png)
+
+Clique no link para acessar: https://raquel-maia.github.io/SAP010-card-validation/
 
 Com variáveis, condicionais e funções, eventos e manipulação de DOM.
 
