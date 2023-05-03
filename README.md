@@ -1,6 +1,6 @@
 # Projeto CardValidator
 
-Este projeto foi desenvolvido como parte do Bootcamp de Desenvolvimento Web Full Stack da Laboratoria. O objetivo é criar um validador de cartão de crédito utilizando JavaScript, HTML e CSS.
+Este projeto foi desenvolvido como parte do Bootcamp de Desenvolvimento Web da Laboratoria. O objetivo é criar um validador de cartão de crédito utilizando JavaScript, HTML e CSS.
 
 O algoritmo utilizado para validar o número do cartão é o algoritmo de Luhn. 
 
